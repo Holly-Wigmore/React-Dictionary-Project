@@ -10,6 +10,24 @@ function App() {
       </header>
       <h1>Dictionary App</h1>
       <Dictionary />
+      <footer>
+        This project was coded by
+        <a
+          href="https://hollyberrywigmore.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Holly Wigmore
+        </a>
+        and is open-sourced on
+        <a
+          href="https://github.com/Holly-Wigmore/React-Dictionary-Project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
