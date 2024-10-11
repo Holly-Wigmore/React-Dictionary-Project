@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Definition(props) {
-  return props.word;
+  return (
+    <div>
+      <h2>{props.word}</h2>
+    </div>
+  );
 }
