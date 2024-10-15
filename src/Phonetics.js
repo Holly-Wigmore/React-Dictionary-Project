@@ -1,5 +1,6 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   console.log(props.phonetic);
@@ -7,7 +8,7 @@ export default function Phonetics(props) {
     <div className="Phonetics">
       <ReactAudioPlayer src={props.phonetic.audio} controls />
       <br />
-      {props.phonetic.text}
+      <div className="Phonetics-text">{props.phonetic.text}</div>
     </div>
   );
 }

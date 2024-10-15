@@ -1,0 +1,17 @@
+.Meaning h3 {
+  text-transform: capitalize;
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.Meaning .definition {
+  text-align: left;
+}
+.Meaning .example {
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 10px;
+}

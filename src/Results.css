@@ -1,0 +1,11 @@
+.Results {
+  margin: 20px;
+}
+
+.Results h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
